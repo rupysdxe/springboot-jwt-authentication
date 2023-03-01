@@ -13,6 +13,7 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+
 public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -20,6 +21,7 @@ public class User implements UserDetails {
     private String usr;
     private String pwd;
 
+    @Enumerated(EnumType.STRING)
     private Role role;
 
 
