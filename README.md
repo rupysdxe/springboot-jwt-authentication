@@ -13,7 +13,7 @@ Important Points:
 6. There are two ways you can implement token-based (JWT) authentication:
 by using either i. spring-boot-starter-security or ii. spring-boot-starter-oauth2-resource-server.
 
-I will be learning and exploring for the later one. 
+I will be learning and exploring the later one. 
 
 7. It contains following Libraries : 
   a. spring-security-core
