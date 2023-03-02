@@ -22,5 +22,12 @@ I will be learning and exploring the later one.
   d. spring-security-oauth2-core
   e. spring-security-oauth2-jose
   f. spring-security-oauth2-resource-server
+  Another important lib is : java-jwt for JWT implementation.
+  
+8. USER sends a POST login request - IF valid(usr,pass) we send a JWT token back with a response. ELSE 401 Unauthorized Access error. 
+
+
+
+
  
 
